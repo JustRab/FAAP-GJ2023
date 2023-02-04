@@ -474,4 +474,4 @@ MonoBehaviour:
   AbilityStopSfx: {fileID: 0}
   AbilityPermitted: 1
   VerticalForce: -0.5
-  GlideOnlyIfNoJumpsLeft: 0
+  GlideOnlyIfNoJumpsLeft: 1
