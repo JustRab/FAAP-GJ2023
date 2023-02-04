@@ -329,7 +329,7 @@ MonoBehaviour:
   AbilityInProgressSfx: {fileID: 0}
   AbilityStopSfx: {fileID: 0}
   AbilityPermitted: 1
-  JumpHeight: 4
+  JumpHeight: 2.5
   NumberOfJumps: 2
   JumpRestrictions: 2
   JumpTimeWindow: 1
