@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InitializationTime: 0
-  SoundClip: {fileID: 8300000, guid: 96b2792f66f015046a559db012f0062a, type: 3}
+  SoundClip: {fileID: 8300000, guid: d70f1107cd99d3d46ab297d49bea341d, type: 3}
 --- !u!1001 &302548401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -592,7 +592,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300124, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300138, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -86, y: 3, z: 0}
@@ -664,7 +664,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300126, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300140, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -75, y: 27, z: 0}
@@ -672,7 +672,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300122, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300136, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -74, y: 27, z: 0}
@@ -73742,7 +73742,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300124, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300138, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -68, y: 15, z: 0}
@@ -74057,7 +74057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114922195585570960, guid: 92386719dda96bb4eb96adffd42914e9, type: 3}
       propertyPath: LevelName
-      value: DevLevel2
+      value: FirstLevelMirror
       objectReference: {fileID: 0}
     - target: {fileID: 212248225043982722, guid: 92386719dda96bb4eb96adffd42914e9, type: 3}
       propertyPath: m_Enabled
