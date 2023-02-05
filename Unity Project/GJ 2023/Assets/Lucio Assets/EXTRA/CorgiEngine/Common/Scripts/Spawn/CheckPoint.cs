@@ -20,13 +20,18 @@ namespace MoreMountains.CorgiEngine
 
 	    protected List<Respawnable> _listeners;
 
-	    /// <summary>
-	    /// Initializes the list of listeners
-	    /// </summary>
-	    protected virtual void Awake () 
+        //Get player animator
+        protected Animator _animator;
+
+        /// <summary>
+        /// Initializes the list of listeners
+        /// </summary>
+        protected virtual void Awake () 
 		{
 			_listeners = new List<Respawnable>();
-		}
+
+            
+        }
 				
 		/// <summary>
 		/// Spawns the player at the checkpoint.
@@ -34,13 +39,16 @@ namespace MoreMountains.CorgiEngine
 		/// <param name="player">Player.</param>
 		public virtual void SpawnPlayer(Character player)
 		{
-			player.RespawnAt(transform, FacingDirection);
+            _animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+            _animator.SetBool("Dead", false);
+            player.RespawnAt(transform, FacingDirection);
 			
 			foreach(Respawnable listener in _listeners)
 			{
 				listener.OnPlayerRespawn(this,player);
 			}
-		}
+
+        }
 		
 		public virtual void AssignObjectToCheckPoint (Respawnable listener) 
 		{
