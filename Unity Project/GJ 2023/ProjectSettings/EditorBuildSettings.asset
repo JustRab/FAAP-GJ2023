@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lucio Assets/Scenes/LoadingScreen.unity
     guid: 73a34e601fa9e414ebf823590b0f21b3
+  - enabled: 1
+    path: Assets/Scenes/MergedLevel.unity
+    guid: 119118840b9ee6b4ba3b42cd1c226d2f
+  - enabled: 1
+    path: Assets/Scenes/EndingLevel.unity
+    guid: 1d464dc647e32dd428b75585736527f2
   m_configObjects: {}
