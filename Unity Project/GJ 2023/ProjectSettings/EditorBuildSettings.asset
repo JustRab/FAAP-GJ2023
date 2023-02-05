@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndingLevel.unity
     guid: 1d464dc647e32dd428b75585736527f2
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 9a29981aad2b6a24fa07c7834e8cfe72
+  - enabled: 1
+    path: Assets/Scenes/VictoryWindow.unity
+    guid: d45c6452cee7df3498d3e3028a353fec
   m_configObjects: {}
