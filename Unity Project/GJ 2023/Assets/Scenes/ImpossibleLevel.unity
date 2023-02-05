@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InitializationTime: 0
-  SoundClip: {fileID: 8300000, guid: 91d37be9a5ddf7340915ded92cb3cac4, type: 3}
+  SoundClip: {fileID: 8300000, guid: 016aa06a23883d446aa979a03a428b53, type: 3}
 --- !u!1001 &302548401
 PrefabInstance:
   m_ObjectHideFlags: 0
