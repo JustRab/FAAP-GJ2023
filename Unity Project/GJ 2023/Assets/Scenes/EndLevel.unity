@@ -72326,7 +72326,7 @@ MonoBehaviour:
   LookAheadTrigger: 0.1
   ManualUpDownLookDistance: 3
   ResetSpeed: 0
-  CameraSpeed: 0.8
+  CameraSpeed: 0.75
   MinimumZoom: 5
   MaximumZoom: 5
   ZoomSpeed: 0.4
@@ -73067,11 +73067,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4263716251666226, guid: 92386719dda96bb4eb96adffd42914e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.53
+      value: -70.54
       objectReference: {fileID: 0}
     - target: {fileID: 4263716251666226, guid: 92386719dda96bb4eb96adffd42914e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.01
+      value: -5.61
       objectReference: {fileID: 0}
     - target: {fileID: 4263716251666226, guid: 92386719dda96bb4eb96adffd42914e9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -79292,7 +79292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerPrefabs:
-  - {fileID: 114000013163076738, guid: d8b836adb973e7f4ea7d861b76e923a8, type: 3}
+  - {fileID: 114000013163076738, guid: cd49c1321dd043a45952adccd56d7383, type: 3}
   AutoAttributePlayerIDs: 1
   DebugSpawn: {fileID: 302548404}
   CheckpointAttributionAxis: 0

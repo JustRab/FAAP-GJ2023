@@ -218,11 +218,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -72.35
+      value: -103.31
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.59
+      value: 18.17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.z
@@ -72332,7 +72332,7 @@ MonoBehaviour:
   LookAheadTrigger: 0.1
   ManualUpDownLookDistance: 3
   ResetSpeed: 0.3
-  CameraSpeed: 0.1
+  CameraSpeed: 0.75
   MinimumZoom: 5
   MaximumZoom: 5
   ZoomSpeed: 0.4
@@ -72410,7 +72410,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837570390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -79.97, y: 18.01, z: -10}
+  m_LocalPosition: {x: -59.18, y: 1.97, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -74648,7 +74648,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300124, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300138, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -72, y: 3, z: 0}
@@ -74664,7 +74664,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300124, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300138, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -70, y: 3, z: 0}
@@ -74688,7 +74688,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300126, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300140, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -59, y: 25, z: 0}
@@ -74712,7 +74712,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 21300124, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
       - {fileID: 21300138, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -56, y: 25, z: 0}
@@ -81512,16 +81512,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
-  - first: {x: -70, y: 29, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 41
-      m_TileMatrixIndex: 1
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -69, y: 29, z: 0}
     second:
       serializedVersion: 2
@@ -81970,7 +81960,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 435
+  - m_RefCount: 434
     m_Data: {fileID: 11400000, guid: 7862bb2ab20754f42bef5f4546ee6b50, type: 2}
   - m_RefCount: 132
     m_Data: {fileID: 11400000, guid: d58ea8b7d0f444501aed7efbc71228f9, type: 2}
@@ -82057,7 +82047,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 435
+  - m_RefCount: 434
     m_Data: {fileID: 21300106, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300098, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
@@ -82086,7 +82076,7 @@ Tilemap:
       e31: 6.63e-43
       e32: 6.6e-43
       e33: 6.61e-43
-  - m_RefCount: 567
+  - m_RefCount: 566
     m_Data:
       e00: 1
       e01: 0
@@ -82105,7 +82095,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 567
+  - m_RefCount: 566
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
