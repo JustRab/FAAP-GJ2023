@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InitializationTime: 0
-  SoundClip: {fileID: 8300000, guid: 3e696f2121d8c5e44af56582837e7af7, type: 3}
+  SoundClip: {fileID: 8300000, guid: 016aa06a23883d446aa979a03a428b53, type: 3}
 --- !u!1001 &302548401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75363,6 +75363,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -82, y: 23, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 41
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -68, y: 23, z: 0}
     second:
       serializedVersion: 2
@@ -75533,6 +75543,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -82, y: 24, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 41
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -67, y: 24, z: 0}
     second:
       serializedVersion: 2
@@ -75673,6 +75693,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -82, y: 25, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 41
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -66, y: 25, z: 0}
     second:
       serializedVersion: 2
@@ -75794,6 +75824,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -83, y: 26, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 41
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -82, y: 26, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 3
@@ -75974,6 +76014,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -83, y: 27, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 41
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -82, y: 27, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 3
@@ -76591,7 +76641,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 215
+  - m_RefCount: 220
     m_Data: {fileID: 11400000, guid: 7862bb2ab20754f42bef5f4546ee6b50, type: 2}
   - m_RefCount: 93
     m_Data: {fileID: 11400000, guid: d58ea8b7d0f444501aed7efbc71228f9, type: 2}
@@ -76678,7 +76728,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 215
+  - m_RefCount: 220
     m_Data: {fileID: 21300106, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300098, guid: c896ec8f9ab9e458284e703b0e96c024, type: 3}
@@ -76707,7 +76757,7 @@ Tilemap:
       e31: 6.63e-43
       e32: 6.6e-43
       e33: 6.61e-43
-  - m_RefCount: 308
+  - m_RefCount: 313
     m_Data:
       e00: 1
       e01: 0
@@ -76726,7 +76776,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 308
+  - m_RefCount: 313
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -76793,8 +76843,8 @@ MonoBehaviour:
   OutroFadeDuration: 1
   RespawnDelay: 2
   LevelBounds:
-    m_Center: {x: -71.5, y: 17.5, z: 0}
-    m_Extent: {x: 18.3, y: 10.3, z: 5}
+    m_Center: {x: -71.5, y: 18, z: 0}
+    m_Extent: {x: 18.3, y: 11, z: 5}
   OneWayLevelMode: 0
   NoGoingBackColliderSize: {x: 5, y: 5}
   NoGoingBackThreshold: 5
