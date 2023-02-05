@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using MoreMountains.Tools;
+using UnityEngine.TextCore.Text;
 
 namespace MoreMountains.CorgiEngine
 {	
@@ -93,17 +94,24 @@ namespace MoreMountains.CorgiEngine
             //Play Death Sound
             PlayDeathSfx(PlayerDeathSFX);
             // we make it ignore the collisions from now on
-            _controller.CollisionsOff();
-			GetComponent<Collider2D>().enabled=false;
-			// we set its dead state to true
-			_character.ConditionState.ChangeState(CharacterStates.CharacterConditions.Dead);
+            //_controller.CollisionsOff();
+            // weplay the death animation
+            Animator animator = GetComponent<Animator>();
+			animator.SetBool("Dead", true);
+            //GetComponent<Collider2D>().enabled=false;
+            // we set its dead state to true
+            _character.ConditionState.ChangeState(CharacterStates.CharacterConditions.Dead);
 			// we set its health to zero (useful for the healthbar)
 			CurrentHealth=0;
 			// we reset the parameters
 			_controller.ResetParameters();
 			// we send it in the air
-	        _controller.SetForce(new Vector2(0, 20));
+	        //_controller.SetForce(new Vector2(0, 20));
 	    }
+
+
 	
 	}
+
+
 }
